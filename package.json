@@ -1,0 +1,28 @@
+{
+    "name": "spigot-drama-bsky",
+    "version": "1.0.0",
+    "description": "A Bluesky bot to post random Spigot Drama",
+    "main": "dist/index.js",
+    "scripts": {
+        "dev": "ts-node src/index.ts",
+        "build": "tsc",
+        "start": "node dist/index.js"
+    },
+    "keywords": [
+        "bluesky",
+        "spigot",
+        "drama",
+        "bot"
+    ],
+    "author": "Tarna",
+    "license": "ISC",
+    "dependencies": {
+        "@atproto/api": "^0.13.18",
+        "cron": "^3.2.1",
+        "dotenv": "^16.4.5"
+    },
+    "devDependencies": {
+        "ts-node": "^10.9.2",
+        "typescript": "^5.7.2"
+    }
+}
